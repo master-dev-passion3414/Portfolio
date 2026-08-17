@@ -66,7 +66,7 @@ export async function POST(request: Request) {
       : [process.env.MAIL_FROM || ''];
 
     const mailOptions = {
-      from: process.env.MAIL_FROM,
+      from: `Portfolio Contact Form <${process.env.MAIL_FROM}>`,
       to: recipients.join(', '), // Send to all configured addresses
       subject: `${formName} Contact: ${subject}`,
       replyTo: email,
