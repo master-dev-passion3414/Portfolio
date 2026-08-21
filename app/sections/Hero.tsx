@@ -65,7 +65,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-lg text-gray-600 dark:text-gray-400 max-w-lg mb-8 leading-relaxed"
             >
-              I&apos;m a senior full stack web developer with 8+ years of experience creating responsive,
+              I&apos;m a senior full stack web developer with 10 years of experience creating responsive,
               user-friendly websites and web applications. I specialize in UI/UX design, frontend and backend development while 
               turning clients&apos; ideas into polished digital solutions.
             </motion.p>
